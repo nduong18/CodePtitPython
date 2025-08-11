@@ -1,0 +1,6 @@
+x = input()
+a = int(x[0])
+b = int(x[4])
+kq = int(x[8])
+if (a+b == kq): print("YES")
+else: print("NO")
