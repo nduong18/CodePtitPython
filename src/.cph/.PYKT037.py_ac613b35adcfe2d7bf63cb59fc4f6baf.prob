@@ -1,0 +1,1 @@
+{"name":"Local: PYKT037","url":"c:\\Visual Studio Code\\CodePtitPython\\src\\PYKT037.py","tests":[{"id":1755160613102,"input":"3\n10 2\n2021 2\n31 16","output":""},{"id":1755160775626,"input":"","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Visual Studio Code\\CodePtitPython\\src\\PYKT037.py","group":"local","local":true}
