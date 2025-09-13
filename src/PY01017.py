@@ -1,14 +1,13 @@
-def rut_gon(x):
-    seen = set(x)
-    res = []
-    for c in seen:
-        if c not in res:
-            res.append(c)
-        seen.add(c)
-    return "".join(res)
-
 t = int(input())
 for _ in range(t):
-    x = input().strip()
-    print(rut_gon(x))
-    
+    x = input()
+    res = ""
+    cnt = 1
+    for i in range(1,len(x)):
+        if x[i] != x[i-1]:
+            res += f"{cnt}{x[i-1]}"
+            cnt = 1
+        else:
+            cnt += 1
+    res += f"{cnt}{x[-1]}"
+    print(res)

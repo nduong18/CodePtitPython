@@ -1,7 +1,4 @@
-import itertools
+from itertools import permutations
 x = input()
-l = list(itertools.permutations(x))
-for i in l:
-    for j in i:
-        print(j, end="")
-    print()
+for p in permutations(x):
+    print("".join(p))
