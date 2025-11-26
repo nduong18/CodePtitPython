@@ -1,0 +1,1 @@
+{"name":"Local: PY03012","url":"c:\\Visual Studio Code\\CodePtitPython\\src\\PY03012.py","tests":[{"id":1760949974936,"input":"2\nNguyen Van B\n168 600\nNguyen Van A\n168 600","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Visual Studio Code\\CodePtitPython\\src\\PY03012.py","group":"local","local":true}
