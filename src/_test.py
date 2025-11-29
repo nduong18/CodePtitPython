@@ -1,16 +1,13 @@
-t = int(input())
-for z in range(t) :
-    n = int(input())
-    m = {}
-    for i in range(n) :
-        x = int(input())
-        if x in m : m[x] += 1
-        else : m[x] = 1
-    s = 0
-    for i in m :
-        if m[i] > s :
-            s = m[i]
-            p = i
-        elif m[i] == s :
-            p = min(p, i)
-    print(p)
+import math
+
+class PhanSo:
+    def __init__(self, tu, mau):
+        self.tu = tu
+        self.mau = mau
+    def ps(self):
+        x = math.gcd(self.tu, self.mau)
+        return f"{int(self.tu / x)}/{int(self.mau / x)}"
+
+tu, mau = map(int, input().split())
+p = PhanSo(tu, mau)
+print(p.ps())

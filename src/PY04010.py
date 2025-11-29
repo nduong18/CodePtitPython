@@ -1,16 +1,18 @@
 ten = input()
 ns = input()
-diem1 = float(input())
-diem2 = float(input())
-diem3 = float(input())
+d1 = float(input())
+d2 = float(input())
+d3 = float(input())
+
+diem = d1 + d2 + d3
 
 NS = ns.split('/')
-nS = ''
-for i in range(2):
-    if len(NS[i]) < 2:
-        nS += '0' + NS[i] + '/'
+res = ""
+for i in NS:
+    if len(i) < 2:
+        res += "0" + i + "/"
+    elif len(i) == 4:
+        res += i
     else:
-        nS += NS[i] + '/'
-nS += NS[2]
-
-print(f"{ten} {nS} {diem1+diem2+diem3:.1f}")
+        res += i + "/"
+print(f"{ten} {res} {diem:.1f}")
