@@ -1,0 +1,1 @@
+{"name":"Local: PYKT095","url":"c:\\Visual Studio Code\\CodePtitPython\\src\\PYKT095.py","tests":[{"id":1764561022130,"input":"2\n Chu thi    minh\nA 120 160\n nGuyEn Hong Ngat\nC 200 278","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Visual Studio Code\\CodePtitPython\\src\\PYKT095.py","group":"local","local":true}

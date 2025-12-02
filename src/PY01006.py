@@ -1,7 +1,7 @@
+data = "47"
 t = int(input())
 for _ in range(t):
     x = input()
-    if set(x) - {'4','7'}:
-        print("NO")
-    else:
-        print("YES")
+    v = all([i in data for i in x])
+    if v: print("YES")
+    else: print("NO")
