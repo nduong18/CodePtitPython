@@ -1,0 +1,1 @@
+{"name":"Local: PY02041","url":"c:\\Visual Studio Code\\CodePtitPython\\src\\PY02041.py","tests":[{"id":1764848823452,"input":"1212121212121212128766342343243242\n45678978","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Visual Studio Code\\CodePtitPython\\src\\PY02041.py","group":"local","local":true}
