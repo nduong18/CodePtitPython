@@ -1,0 +1,5 @@
+n, m = map(int, input().split())
+a = list(set(map(int, input().split())))
+b = list(set(map(int, input().split())))
+if a == b: print("YES")
+else: print("NO")

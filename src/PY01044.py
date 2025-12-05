@@ -1,0 +1,6 @@
+a = input().lower().split()
+b = input().lower().split()
+union = sorted(set(a) | set(b))
+intersection = sorted(set(a) & set(b))
+print(" ".join(union))
+print(" ".join(intersection))
